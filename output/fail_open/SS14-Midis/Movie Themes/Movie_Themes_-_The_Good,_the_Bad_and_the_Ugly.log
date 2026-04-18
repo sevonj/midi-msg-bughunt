@@ -1,0 +1,710 @@
+MidiFileParseError {
+    error: ByteOverflow,
+    file: MidiFile {
+        header: Header {
+            format: SingleTrack,
+            num_tracks: 0x1,
+            division: TicksPerQuarterNote(
+                0x1E0,
+            ),
+        },
+        tracks: [
+            Midi(
+                [
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: TrackName(
+                                "The Good, the Bad and the Ugly",
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: SmpteOffset(
+                                HighResTimeCode {
+                                    fractional_frames: 0x0,
+                                    frames: 0x0,
+                                    seconds: 0x3,
+                                    minutes: 0x0,
+                                    hours: 0x0,
+                                    code_type: NDF30,
+                                },
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: TimeSignature(
+                                FileTimeSignature {
+                                    numerator: 0x4,
+                                    denominator: 0x4,
+                                    clocks_per_metronome_tick: 0x18,
+                                    thirty_second_notes_per_24_clocks: 0x8,
+                                },
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: KeySignature(
+                                KeySignature {
+                                    key: 0x0,
+                                    scale: 0x0,
+                                },
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: SetTempo(
+                                0x927C0,
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ProgramChange {
+                                program: 0x19,
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch2,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x78,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch3,
+                            msg: ProgramChange {
+                                program: 0x18,
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch3,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x7F,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch4,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x7F,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch4,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0xA,
+                                    value: 0x4D,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch5,
+                            msg: ProgramChange {
+                                program: 0x4E,
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch5,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x7F,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch5,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0xA,
+                                    value: 0xD,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: ProgramChange {
+                                program: 0x4E,
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x7F,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0xA,
+                                    value: 0x75,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch7,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x7F,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch8,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x7F,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch10,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x78,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x2,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x63,
+                                    value: 0x1,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.004166667,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: Parameter(
+                                    Unregistered(
+                                        0x88,
+                                    ),
+                                ),
+                            },
+                        },
+                        beat_or_frame: 0.004166667,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x6,
+                                    value: 0x40,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.004166667,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x26,
+                                    value: 0x0,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.004166667,
+                    },
+                    TrackEvent {
+                        delta_time: 0x1,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x63,
+                                    value: 0x1,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0062500006,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: Parameter(
+                                    Unregistered(
+                                        0x89,
+                                    ),
+                                ),
+                            },
+                        },
+                        beat_or_frame: 0.0062500006,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x6,
+                                    value: 0x40,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0062500006,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x26,
+                                    value: 0x0,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0062500006,
+                    },
+                    TrackEvent {
+                        delta_time: 0x1,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x63,
+                                    value: 0x1,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.008333334,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: Parameter(
+                                    Unregistered(
+                                        0x8A,
+                                    ),
+                                ),
+                            },
+                        },
+                        beat_or_frame: 0.008333334,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x6,
+                                    value: 0x40,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.008333334,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x26,
+                                    value: 0x0,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.008333334,
+                    },
+                    TrackEvent {
+                        delta_time: 0x1,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x63,
+                                    value: 0x1,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.010416667,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: Parameter(
+                                    Unregistered(
+                                        0xA0,
+                                    ),
+                                ),
+                            },
+                        },
+                        beat_or_frame: 0.010416667,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x6,
+                                    value: 0x40,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.010416667,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x26,
+                                    value: 0x0,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.010416667,
+                    },
+                    TrackEvent {
+                        delta_time: 0x1,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x63,
+                                    value: 0x1,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0125,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: Parameter(
+                                    Unregistered(
+                                        0xA1,
+                                    ),
+                                ),
+                            },
+                        },
+                        beat_or_frame: 0.0125,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x6,
+                                    value: 0x40,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0125,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x26,
+                                    value: 0x0,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0125,
+                    },
+                    TrackEvent {
+                        delta_time: 0x1,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x63,
+                                    value: 0x1,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.014583333,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: Parameter(
+                                    Unregistered(
+                                        0xE3,
+                                    ),
+                                ),
+                            },
+                        },
+                        beat_or_frame: 0.014583333,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x6,
+                                    value: 0x40,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.014583333,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x26,
+                                    value: 0x0,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.014583333,
+                    },
+                    TrackEvent {
+                        delta_time: 0x1,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x63,
+                                    value: 0x1,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.016666668,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: Parameter(
+                                    Unregistered(
+                                        0xE4,
+                                    ),
+                                ),
+                            },
+                        },
+                        beat_or_frame: 0.016666668,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x6,
+                                    value: 0x40,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.016666668,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x26,
+                                    value: 0x0,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.016666668,
+                    },
+                    TrackEvent {
+                        delta_time: 0x1,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x63,
+                                    value: 0x1,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.01875,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: Parameter(
+                                    Unregistered(
+                                        0xE6,
+                                    ),
+                                ),
+                            },
+                        },
+                        beat_or_frame: 0.01875,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x6,
+                                    value: 0x40,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.01875,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x26,
+                                    value: 0x0,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.01875,
+                    },
+                ],
+            ),
+        ],
+    },
+    offset: 0xEC,
+    parsing: "track 0 event 52",
+    remaining_bytes: 0xC1F2,
+    next_bytes: [
+        0x1,
+        0x0,
+        0xFF,
+        0x4,
+        0x5B,
+        0x7F,
+        0x1,
+        0x65,
+        0x0,
+        0x0,
+        0x64,
+        0x0,
+        0x0,
+        0x6,
+        0x2,
+        0x0,
+        0x26,
+        0x0,
+        0x1,
+        0xB1,
+    ],
+}

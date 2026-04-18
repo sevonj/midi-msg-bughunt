@@ -1,0 +1,75 @@
+MidiFileParseError {
+    error: ByteOverflow,
+    file: MidiFile {
+        header: Header {
+            format: MultiTrack,
+            num_tracks: 0xA,
+            division: TicksPerQuarterNote(
+                0x180,
+            ),
+        },
+        tracks: [
+            Midi(
+                [
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: TimeSignature(
+                                FileTimeSignature {
+                                    numerator: 0x4,
+                                    denominator: 0x4,
+                                    clocks_per_metronome_tick: 0x18,
+                                    thirty_second_notes_per_24_clocks: 0x8,
+                                },
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: SetTempo(
+                                0x562AD,
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: TrackName(
+                                "2013 Drum Kit",
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                ],
+            ),
+        ],
+    },
+    offset: 0x36,
+    parsing: "track 0 event 3",
+    remaining_bytes: 0x8719,
+    next_bytes: [
+        0x0,
+        0xC9,
+        0xFF,
+        0x0,
+        0x99,
+        0x24,
+        0x2E,
+        0x0,
+        0x99,
+        0x24,
+        0x2E,
+        0x0,
+        0x99,
+        0x31,
+        0x2E,
+        0x0,
+        0x99,
+        0x31,
+        0x2E,
+        0x60,
+    ],
+}

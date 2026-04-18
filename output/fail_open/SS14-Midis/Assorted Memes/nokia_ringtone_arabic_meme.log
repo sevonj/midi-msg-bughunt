@@ -1,0 +1,357 @@
+MidiFileParseError {
+    error: ByteOverflow,
+    file: MidiFile {
+        header: Header {
+            format: SingleTrack,
+            num_tracks: 0x1,
+            division: TicksPerQuarterNote(
+                0x3C0,
+            ),
+        },
+        tracks: [
+            Midi(
+                [
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: TrackName(
+                                "�� �����",
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: Text(
+                                "PsmPlayer V3.80",
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Invalid {
+                            bytes: [
+                                0x7E,
+                                0x7F,
+                                0x9,
+                                0x1,
+                                0xF7,
+                            ],
+                            error: NotImplemented(
+                                "UniversalNonRealTimeMsg",
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: SetTempo(
+                                0x5B8D8,
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Invalid {
+                            bytes: [
+                                0x7F,
+                                0x7F,
+                                0x4,
+                                0x1,
+                                0x7F,
+                                0x64,
+                                0xF7,
+                            ],
+                            error: NotImplemented(
+                                "UniversalRealTimeMsg",
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ProgramChange {
+                                program: 0x28,
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x7F,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch2,
+                            msg: ProgramChange {
+                                program: 0x30,
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch2,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x7F,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch3,
+                            msg: ProgramChange {
+                                program: 0x21,
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch3,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x7F,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch4,
+                            msg: ProgramChange {
+                                program: 0x5,
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch4,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x7F,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch5,
+                            msg: ProgramChange {
+                                program: 0x28,
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch5,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x7F,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: ProgramChange {
+                                program: 0x30,
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x7F,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch7,
+                            msg: ProgramChange {
+                                program: 0x28,
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch7,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x7F,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch8,
+                            msg: ProgramChange {
+                                program: 0x30,
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch8,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x7F,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch9,
+                            msg: ProgramChange {
+                                program: 0x28,
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch9,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x7F,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch10,
+                            msg: ProgramChange {
+                                program: 0x0,
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch10,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x7F,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch11,
+                            msg: ProgramChange {
+                                program: 0x30,
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch11,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x7F,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                ],
+            ),
+        ],
+    },
+    offset: 0x9B,
+    parsing: "track 0 event 27",
+    remaining_bytes: 0x1A39,
+    next_bytes: [
+        0x0,
+        0xB0,
+        0x5D,
+        0xFF,
+        0x0,
+        0x5B,
+        0xFF,
+        0x0,
+        0xA,
+        0x3F,
+        0x0,
+        0x0,
+        0x0,
+        0x0,
+        0x20,
+        0x78,
+        0x0,
+        0x5B,
+        0x32,
+        0x0,
+    ],
+}

@@ -1,0 +1,1267 @@
+MidiFileParseError {
+    error: ByteOverflow,
+    file: MidiFile {
+        header: Header {
+            format: MultiTrack,
+            num_tracks: 0x8,
+            division: TicksPerQuarterNote(
+                0xC0,
+            ),
+        },
+        tracks: [
+            Midi(
+                [
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: SetTempo(
+                                0x249F00,
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: TimeSignature(
+                                FileTimeSignature {
+                                    numerator: 0x4,
+                                    denominator: 0x4,
+                                    clocks_per_metronome_tick: 0x18,
+                                    thirty_second_notes_per_24_clocks: 0x8,
+                                },
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: KeySignature(
+                                KeySignature {
+                                    key: 0x0,
+                                    scale: 0x0,
+                                },
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: EndOfTrack,
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                ],
+            ),
+            Midi(
+                [
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: TrackName(
+                                "HMP2MID.EXE by Markus Hein (heinm@cs.tu-berlin.de)",
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: EndOfTrack,
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                ],
+            ),
+            Midi(
+                [
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: ChannelPrefix(
+                                Ch6,
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x7,
+                                    value: 0x7F,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: ProgramChange {
+                                program: 0x26,
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x20,
+                                    value: 0x0,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: ControlChange {
+                                control: CC {
+                                    control: 0x0,
+                                    value: 0x0,
+                                },
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 0.046875,
+                    },
+                    TrackEvent {
+                        delta_time: 0x1B,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 0.1875,
+                    },
+                    TrackEvent {
+                        delta_time: 0xA,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2A,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 0.23958333,
+                    },
+                    TrackEvent {
+                        delta_time: 0x1B,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2A,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 0.3802083,
+                    },
+                    TrackEvent {
+                        delta_time: 0xA,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2B,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 0.43229166,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2B,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 0.47916666,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2D,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 0.5260416,
+                    },
+                    TrackEvent {
+                        delta_time: 0x25,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2D,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 0.71874994,
+                    },
+                    TrackEvent {
+                        delta_time: 0x1C,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 0.86458325,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 0.91145825,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 0.95833325,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 1.0052083,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2A,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 1.0052083,
+                    },
+                    TrackEvent {
+                        delta_time: 0x1C,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2A,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 1.1510416,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2B,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 1.1979166,
+                    },
+                    TrackEvent {
+                        delta_time: 0x13,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2B,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 1.296875,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2D,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 1.34375,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2D,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 1.390625,
+                    },
+                    TrackEvent {
+                        delta_time: 0x13,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x23,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 1.4895834,
+                    },
+                    TrackEvent {
+                        delta_time: 0x12,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x23,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 1.5833334,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 1.5833334,
+                    },
+                    TrackEvent {
+                        delta_time: 0x1C,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 1.7291667,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2A,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 1.7760417,
+                    },
+                    TrackEvent {
+                        delta_time: 0x1C,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2A,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 1.9218751,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2B,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 1.9687501,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2B,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 2.015625,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2D,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 2.0625,
+                    },
+                    TrackEvent {
+                        delta_time: 0x25,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2D,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 2.2552083,
+                    },
+                    TrackEvent {
+                        delta_time: 0x1C,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 2.4010415,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 2.4479165,
+                    },
+                    TrackEvent {
+                        delta_time: 0xA,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 2.4999998,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 2.5468748,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2A,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 2.5468748,
+                    },
+                    TrackEvent {
+                        delta_time: 0x1B,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2A,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 2.6874998,
+                    },
+                    TrackEvent {
+                        delta_time: 0xA,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2B,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 2.739583,
+                    },
+                    TrackEvent {
+                        delta_time: 0x12,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2B,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 2.833333,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2D,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 2.880208,
+                    },
+                    TrackEvent {
+                        delta_time: 0x13,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2D,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 2.9791663,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x23,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 3.0260413,
+                    },
+                    TrackEvent {
+                        delta_time: 0x13,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x23,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 3.1249995,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 3.1249995,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 3.1718745,
+                    },
+                    TrackEvent {
+                        delta_time: 0x1B,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 3.3124995,
+                    },
+                    TrackEvent {
+                        delta_time: 0x13,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 3.4114578,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 3.4583328,
+                    },
+                    TrackEvent {
+                        delta_time: 0x13,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 3.557291,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2B,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 3.557291,
+                    },
+                    TrackEvent {
+                        delta_time: 0x12,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2B,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 3.651041,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 3.651041,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 3.697916,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2D,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 3.697916,
+                    },
+                    TrackEvent {
+                        delta_time: 0xA,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2D,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 3.7499993,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2B,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 3.7968743,
+                    },
+                    TrackEvent {
+                        delta_time: 0x12,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2B,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 3.8906243,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 3.8906243,
+                    },
+                    TrackEvent {
+                        delta_time: 0x13,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 3.9895825,
+                    },
+                    TrackEvent {
+                        delta_time: 0x12,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 4.0833325,
+                    },
+                    TrackEvent {
+                        delta_time: 0x13,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 4.182291,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 4.229166,
+                    },
+                    TrackEvent {
+                        delta_time: 0x12,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 4.322916,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2B,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 4.322916,
+                    },
+                    TrackEvent {
+                        delta_time: 0x13,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2B,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 4.4218745,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 4.4218745,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 4.4687495,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2D,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 4.4687495,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2D,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 4.5156245,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2F,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 4.5156245,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2F,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 4.5624995,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2B,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 4.5624995,
+                    },
+                    TrackEvent {
+                        delta_time: 0x13,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2B,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 4.661458,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 4.661458,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 4.708333,
+                    },
+                    TrackEvent {
+                        delta_time: 0x1C,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 4.8541665,
+                    },
+                    TrackEvent {
+                        delta_time: 0x12,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 4.9479165,
+                    },
+                    TrackEvent {
+                        delta_time: 0xA,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 5.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x12,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 5.09375,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2B,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 5.09375,
+                    },
+                    TrackEvent {
+                        delta_time: 0x12,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2B,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 5.1875,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 5.1875,
+                    },
+                    TrackEvent {
+                        delta_time: 0xA,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 5.2395835,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2D,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 5.2395835,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2D,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 5.2864585,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2B,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 5.3333335,
+                    },
+                    TrackEvent {
+                        delta_time: 0x13,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2B,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 5.432292,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 5.432292,
+                    },
+                    TrackEvent {
+                        delta_time: 0x12,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 5.526042,
+                    },
+                    TrackEvent {
+                        delta_time: 0x13,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 5.6250005,
+                    },
+                    TrackEvent {
+                        delta_time: 0x12,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 5.7187505,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 5.7656255,
+                    },
+                    TrackEvent {
+                        delta_time: 0x13,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 5.864584,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2B,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 5.864584,
+                    },
+                    TrackEvent {
+                        delta_time: 0x12,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2B,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 5.958334,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x28,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 5.958334,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x28,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 6.005209,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2D,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 6.005209,
+                    },
+                    TrackEvent {
+                        delta_time: 0xA,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2D,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 6.0572925,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2F,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 6.0572925,
+                    },
+                    TrackEvent {
+                        delta_time: 0x9,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2F,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 6.1041675,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOn {
+                                note: 0x2B,
+                                velocity: 0x7F,
+                            },
+                        },
+                        beat_or_frame: 6.1041675,
+                    },
+                    TrackEvent {
+                        delta_time: 0x12,
+                        event: ChannelVoice {
+                            channel: Ch6,
+                            msg: NoteOff {
+                                note: 0x2B,
+                                velocity: 0x0,
+                            },
+                        },
+                        beat_or_frame: 6.1979175,
+                    },
+                ],
+            ),
+        ],
+    },
+    offset: 0x21D,
+    parsing: "track 2 event 105",
+    remaining_bytes: 0x4587,
+    next_bytes: [
+        0x0,
+        0xB5,
+        0x6D,
+        0x80,
+        0x0,
+        0xB5,
+        0x6E,
+        0xFF,
+        0x0,
+        0x95,
+        0x28,
+        0x7F,
+        0xA,
+        0x85,
+        0x28,
+        0x0,
+        0x1B,
+        0x95,
+        0x28,
+        0x7F,
+    ],
+}

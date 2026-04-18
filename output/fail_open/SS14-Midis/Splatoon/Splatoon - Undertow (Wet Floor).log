@@ -1,0 +1,85 @@
+MidiFileParseError {
+    error: ByteOverflow,
+    file: MidiFile {
+        header: Header {
+            format: MultiTrack,
+            num_tracks: 0x9,
+            division: TicksPerQuarterNote(
+                0x180,
+            ),
+        },
+        tracks: [
+            Midi(
+                [
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: TimeSignature(
+                                FileTimeSignature {
+                                    numerator: 0x4,
+                                    denominator: 0x4,
+                                    clocks_per_metronome_tick: 0x18,
+                                    thirty_second_notes_per_24_clocks: 0x8,
+                                },
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: SetTempo(
+                                0x583E5,
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: Meta {
+                            msg: TrackName(
+                                "Bass",
+                            ),
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                    TrackEvent {
+                        delta_time: 0x0,
+                        event: ChannelVoice {
+                            channel: Ch1,
+                            msg: ProgramChange {
+                                program: 0x20,
+                            },
+                        },
+                        beat_or_frame: 0.0,
+                    },
+                ],
+            ),
+        ],
+    },
+    offset: 0x30,
+    parsing: "track 0 event 4",
+    remaining_bytes: 0x595B,
+    next_bytes: [
+        0x0,
+        0x90,
+        0x28,
+        0xFA,
+        0x82,
+        0x20,
+        0x80,
+        0x28,
+        0x0,
+        0x0,
+        0x90,
+        0x34,
+        0xFA,
+        0x60,
+        0x80,
+        0x34,
+        0x0,
+        0x0,
+        0x90,
+        0x27,
+    ],
+}

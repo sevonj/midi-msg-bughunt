@@ -1,0 +1,42 @@
+MidiFileParseError {
+    error: ByteOverflow,
+    file: MidiFile {
+        header: Header {
+            format: MultiTrack,
+            num_tracks: 0xC,
+            division: TicksPerQuarterNote(
+                0x1E0,
+            ),
+        },
+        tracks: [
+            Midi(
+                [],
+            ),
+        ],
+    },
+    offset: 0x16,
+    parsing: "track 0 event 0",
+    remaining_bytes: 0x281A,
+    next_bytes: [
+        0x0,
+        0xFF,
+        0x54,
+        0x5,
+        0x80,
+        0x0,
+        0x0,
+        0x0,
+        0x0,
+        0x0,
+        0xFF,
+        0x51,
+        0x3,
+        0xC,
+        0xE0,
+        0xE0,
+        0x0,
+        0xFF,
+        0x58,
+        0x4,
+    ],
+}
